@@ -1,0 +1,119 @@
+body {
+  font-family: Inter;
+  margin: 0%;
+  padding: 0%;
+  word-break: keep-all;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+  margin: 0 20px;
+  height: 50px;
+}
+.header a {
+  color: #000;
+  text-decoration: none;
+}
+.header a:hover {
+  color: green;
+}
+.header .cate_menu {
+  display: flex;
+  gap: 20px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.header .my_menu {
+  display: flex;
+  gap: 20px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.header .logo {
+  font-size: 20px;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.main {
+  width: auto;
+  margin: 0 20px;
+  height: 25vh;
+  line-height: 11.5vh;
+  position: relative;
+  font-size: 11vh;
+  font-weight: 400;
+  text-transform: uppercase;
+  top: 65px;
+  border-bottom: 1px solid #000;
+  box-sizing: border-box;
+}
+
+.main_items {
+  display: flex;
+  top: 70px;
+  position: relative;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.main_items .main_item {
+  flex: 1;
+  position: relative;
+  margin-right: 20px;
+  width: 100%;
+}
+.main_items .main_item a {
+  display: block;
+}
+.main_items .main_item .main_img {
+  overflow: hidden;
+}
+.main_items .main_item .main_img img {
+  width: 100%;
+  display: block;
+  transition: transform 0.3s ease;
+}
+.main_items .main_item .main_img img:hover {
+  transform: scale(1.5);
+  filter: invert(1) hue-rotate(180deg);
+}
+.main_items .main_item .main_info {
+  font-size: 15px;
+  font-weight: 500;
+}
+.main_items .main_item .main_info_title {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.main_items .main_item .main_info_text {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.main_items .main_item:last-child {
+  margin-right: 0;
+}/*# sourceMappingURL=w7.css.map */
